@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/main_card"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/denim_jacket" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="3dp"
+            android:text="Adidas Grey -\nShirt"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image"
+            android:layout_toRightOf="@+id/product_name"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="80px"
+            android:text="15.0 in Stock"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="48dp"
+        android:id="@+id/button1"
+        android:layout_height="48dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="50dp"
+        android:text="S"
+        android:layout_marginTop="300dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="48dp"
+        android:id="@+id/button2"
+        android:layout_marginLeft="50dp"
+        android:layout_height="48dp"
+        android:insetTop="0dp"
+        app:cornerRadius="50dp"
+        android:insetBottom="0dp"
+        android:text="M"
+        android:layout_marginTop="300dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="48dp"
+        android:id="@+id/button3"
+        android:layout_marginLeft="100dp"
+        android:layout_height="48dp"
+        android:insetTop="0dp"
+        app:cornerRadius="50dp"
+        android:insetBottom="0dp"
+        android:text="L"
+        android:layout_marginTop="300dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="48dp"
+        android:id="@+id/button4"
+        android:layout_marginLeft="150dp"
+        android:layout_height="48dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        app:cornerRadius="50dp"
+        android:text="X"
+        android:layout_marginTop="300dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="48dp"
+        android:id="@+id/button5"
+        android:layout_marginLeft="200dp"
+        android:layout_height="48dp"
+        android:insetTop="0dp"
+        app:cornerRadius="50dp"
+        android:insetBottom="0dp"
+        android:text="L"
+        android:layout_marginTop="300dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="3dp"
+        android:text="$ 15.5 USD"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/product_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price"
+        android:layout_marginStart="4dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="1300px"
+        android:text="Product Details:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/product_expand_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_details"
+        android:layout_marginStart="4dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="1400px"
+        android:text="Imported From USA in 2002"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/add_to_cart"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1600px"
+        android:text="Add to Cart" />
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

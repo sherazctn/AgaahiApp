@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dancing_script"
+            android:text="USA Clothing"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="185dp"
+            android:src="@drawable/ic_shopping_cart_checkout_24"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nerko_one"
+            android:id="@+id/catTitle"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="Categories"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:paddingLeft="100dp"
+                app:cornerRadius="50dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/nerko_one"
+                android:backgroundTint="#FFA500"
+                android:text="Men"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/men_cat1"
+                android:src="@drawable/men_hoddie"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:paddingLeft="80dp"
+                app:cornerRadius="50dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/nerko_one"
+                android:backgroundTint="#FF0000"
+                android:text="Women"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/men_cat2"
+                android:src="@drawable/women_shirt"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="150dp"
+                android:paddingLeft="100dp"
+                app:cornerRadius="50dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/nerko_one"
+                android:backgroundTint="#882FF6
+"
+                android:text="Kids"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/men_cat"
+                android:src="@drawable/kids_cloths"/>
+
+        </RelativeLayout>
+        </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/nerko_one"
+        android:textSize="25dp"
+        android:text="Our Products"/>
+
+    <GridView
+        android:id="@+id/grid_view_image_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="110dp"
+        android:gravity="center"
+        android:numColumns="2" />
+
+
+</LinearLayout>

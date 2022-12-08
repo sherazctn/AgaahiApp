@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "451539220508",
+    "project_id": "sts-app-e01b2",
+    "storage_bucket": "sts-app-e01b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451539220508:android:2b9b1d6db4d891c7d807d9",
+        "android_client_info": {
+          "package_name": "com.sheraz.stsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451539220508-dhsb0e5155d0vgg8t4crlrevbhlhsmio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6HWPgHbqJtdIQwYPw0Ok6SHFU4XZKzaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451539220508-dhsb0e5155d0vgg8t4crlrevbhlhsmio.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
